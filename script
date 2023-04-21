@@ -1,1 +1,6 @@
 vim word\ count.sh
+wc -w *.txt
+ctrl x
+git add word\ count.sh
+git commit -m "word count added to count.sh"
+git push -u origin script
