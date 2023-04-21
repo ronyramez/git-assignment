@@ -38,3 +38,34 @@ vim update-file3
 updated status in file
 git add update-file1 update-file2 update-file3
 git commit -m "new updated file branch"
+
+#5 Done
+
+#6
+git checkout -b script
+vim word\ count.sh
+wc -w *.txt
+ctrl x
+git add word\ count.sh
+git commit -m "word count added to count.sh"
+git push -u origin script
+
+#7
+git checkout -b refactor-script
+vim word\ count.sh
+if [ -d "$1"]; then
+    wc -w "$1"/*.txt
+else
+    echo "wrong directory!!"
+git add word\ count.sh
+git commit -m "word count is updated to count.sh"
+git push -u origin script
+
+
+
+
+
+
+
+
+
