@@ -26,3 +26,18 @@ git commit -m "fil1.txt , file2.txt , file3.txt are done"
 git push orgin text-files
 
 #4
+git branch update-file1 update-file2 update-file3
+git checkout update-file1
+vim update-file1
+updated status in file
+git checkout update-file2
+vim update-file2
+updated status in file
+git checkout update-file3
+vim update-file3
+updated status in file
+git add update-file1 update-file2 update-file3
+git commit -m "new updated file branch"
+
+#5
+
