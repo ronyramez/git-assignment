@@ -57,3 +57,9 @@ else
 git add word\ count.sh
 git commit -m "word count is updated to count.sh"
 git push -u origin script
+
+#9
+git checkout -b final-merge
+git merge text-files
+git metrge script
+git push -u origin final-merge
