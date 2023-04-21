@@ -1,8 +1,3 @@
-vim word\ count.sh
-if [ -d "$1"]; then
-    wc -w "$1"/*.txt
-else
-    echo "wrong directory!!"
-git add word\ count.sh
-git commit -m "word count is updated to count.sh"
-git push -u origin script
+This is file1.txt
+This is file2.txt
+This is file3.txt
